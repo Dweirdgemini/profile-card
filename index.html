@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="profile-card">
+            <div class="theme-toggle">
+                <button id="themeToggle">
+                    🌙 Toggle Theme
+                </button>
+            </div>
+            
+            <div class="profile-header">
+
+                <div class="image-container">
+                    <img 
+                        src="img/profile.png" 
+                        alt="Profile Picture" 
+                        class="profile-picture"
+                        data-testid="profilePicture"
+                    >
+                </div>
+
+
+                <div class="profile-info">
+                    <h1 class="full-name" data-testid="fullName">Joshua Nwachuku</h1>
+                    <h2 class="job-title" data-testid="jobTitle">Full Stack Developer</h2>
+                </div>
+            </div>
+
+            <div class="profile-content">
+
+                <p class="short-bio" data-testid="shortBio">
+                    A passionate full-stack developer with over 2 years  of experience in building web applications. 
+                    Specialized in React, Node.js, and cloud technologies. 
+                    Committed to creating efficient, scalable solutions and contributing to open-source projects. 
+                    Always eager to learn new technologies and mentor junior developers.
+                </p>
+
+                <div class="info-section">
+                   
+                    <p class="location" data-testid="currentLocation">
+                        <span class="icon">📍</span>
+                        <span>F.C.T,Nigeria</span>
+                    </p>
+                    
+                    
+                    <p class="email" data-testid="emailAddress">
+                        <span class="icon">✉️</span>
+                        <span> nwachukujoshua27@gmail.com </span>
+                    </p>
+                </div>
+
+               
+                <div class="social-links" data-testid="socialLinks">
+                    <a href="https://www.linkedin.com/in/joshua-nwachuku-62a639196/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Dweirdgemini" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://x.com/Dev_ngG" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <span>Twitter</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="time-section">
+                <p class="time" data-testid="currentTimeUTC"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
