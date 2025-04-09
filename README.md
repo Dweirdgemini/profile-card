@@ -1,4 +1,3 @@
-Here’s a fun and engaging README you can use for the [`profile-card`](https://github.com/Dweirdgemini/profile-card) project by Dweirdgemini, based on its purpose as a stylish front-end profile card component:
 
 ---
 
